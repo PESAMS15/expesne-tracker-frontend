@@ -260,7 +260,7 @@ export default function DashBoard(props) {
                   className={
                     active === "4 "
                     ? "text-rp-yellow flex text-2xl p-2"
-                    : "text-rp-yellow flex text-2xl p-2"
+                    : "text-rp-yellow flex text-2xl p-2"             
                   }
                 >
                   <span className="mr-3">
