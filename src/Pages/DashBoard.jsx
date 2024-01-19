@@ -267,7 +267,7 @@ export default function DashBoard(props) {
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-7 w-7"
-                      viewBox="0 0 20 20"
+                      viewBox="0 0 20 20" 
                       fill="currentColor"
                     >
                        <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1 15h2v2h-2v-2zm0-14h2v10h-2V3z" />
