@@ -74,8 +74,8 @@ const Goa = () => {
       {goal && goal.goalStatus}
       </div>
       </div>
-      <div className='w-52 text-center mx-auto'>
-      {goal && < DoughnutChart value1={goal && goal.amountSaved } value2={goal && goal.amount - goal.amount} />}
+      <div className='w-72 text-center mx-auto'>
+      {goal && < DoughnutChart value1={goal && goal.amountSaved } value2={goal && goal.amount - goal.amountSaved} />}
       </div>
       <div className="flex justify-between">
         <div className="text-xl">
