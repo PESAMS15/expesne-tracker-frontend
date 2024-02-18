@@ -127,6 +127,21 @@ export default function Login(props) {
             Sign Up
           </span>
         </span>
+        <div>
+        <span className="flex text-sm py-3 md:justify-center text-center py-2">
+          <span
+            className="text-rp-yellow block text-center cursor-pointer"
+            onClick={() => {
+              // props.closeModalLogin();
+              props.open();
+              props.closeModalLogin();
+            }}
+          >
+            Forgot password?
+          </span>
+        </span>
+        </div>
+
       </div>
     </div>
   );
