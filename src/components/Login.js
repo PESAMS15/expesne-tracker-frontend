@@ -71,7 +71,7 @@ export default function Login(props) {
             className="p-2 m-2 inline-block outline-none  col-span-8 bg-jp-black rounded-sm placeholder-white"
           />
           <span className="text-sm text-red-500 col-start-5 col-span-8">
-            {error.email}
+            {/* {error.email} */}
           </span>
         </div>
 
