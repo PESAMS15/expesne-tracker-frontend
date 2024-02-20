@@ -11,7 +11,7 @@ const DoughnutChart = ({ value1, value2 }) => {
           backgroundColor: ['#36A2EB', '#FF6384'], // Colors for each segment
         },
       ],
-      labels: ['Amount left', 'Amount Saved'],
+      labels: ['Amount Saved', 'Amount left'],
     };
   
     return <Doughnut data={chartData} />;

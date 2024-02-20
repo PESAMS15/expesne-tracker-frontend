@@ -56,7 +56,8 @@ const Goals = (props) => {
  
             {/* <div className='text-center'>Goals</div> */}
             {goals && goals.map((goal, index) => (
-            <div   onClick={(e)=> go(goal._id)}  key={index} className="bg-jp-black  flex cursor-pointer justify-between  mx-auto rounded-xl lg:w-[90%] w-[100%]  p-3 mb-8 lg:mb-3 ">
+
+            <div   onClick={(e)=> go(goal._id)}  key={index} className="bg-jp-black items-center flex cursor-pointer justify-between  mx-auto rounded-xl lg:w-[90%] w-[100%]  p-3 mb-8 lg:mb-3 ">
                 <div className="text-jp-yellow w-full text-xl flex flex-col gap-4">
                
                  <div>
@@ -68,7 +69,9 @@ const Goals = (props) => {
                </div>
                
                   </div>
+                  <img className='w-10' src={goal && goal.goalStatus == "Achieved"? "https://o.remove.bg/downloads/170909a2-ad77-478b-b335-329c76b2d309/OIP-removebg-preview.png": "https://o.remove.bg/downloads/c46864ba-bdc2-4832-beab-2886d3ac5919/th-removebg-preview.png"} alt="" />
             </div>
+            
             ))}
         </div>
         </div>
